@@ -1,0 +1,123 @@
+/* title, text */
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #3f51b5;
+}
+
+p {
+  font-size: 13px;
+  color: grey;
+}
+
+/* home */
+.home > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* weare */
+.weare {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.weareTitleBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weareContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 50px;
+  gap: 20px;
+}
+
+.weareBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.weareBox > span {
+  font-size: 28px;
+  color: #3f51b5;
+}
+
+/* work */
+.work {
+  width: 100%;
+  /* max-width: 1024px; */
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.workalign {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.work > article {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 50px;
+}
+
+.work > article > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .work > article > figure {
+  position: relative;
+}
+
+.work > article > figure:hover > .blurBox {
+  opacity: 0.3;
+}
+
+.blurBox {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  background-color: #3f51b5;
+  opacity: 0;
+} */
+
+/* blog */
+.blog {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.blog > article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blogBox {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  gap: 5px;
+}
+
+.blogBox > figure > img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.blogBox > span {
+  color: lightgray;
+  font-size: 12px;
+}

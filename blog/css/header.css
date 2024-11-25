@@ -1,0 +1,23 @@
+header {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  color: #3f51b5;
+  padding: 20px 0px;
+  font-size: 14px;
+}
+
+.logo {
+  color: #3f51b5;
+  font-size: 20px;
+}
+
+header > nav > ul {
+  display: flex;
+  gap: 20px;
+}
